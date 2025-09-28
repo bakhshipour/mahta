@@ -66,21 +66,21 @@ RIDDLES = [
                     <h3>⚖️ The Riddle</h3>
                 </div>
                 <div class="puzzle-content">
-                    <p>Three friends—Amin put 3 logs into the fire, and Saeed added 5 logs. Matin, who had no firewood, paid them $8 as her share.</p>
+                    <p>Three friends—Alice, Bob, and Carol—were making a fire. Alice put 3 logs into the fire, and Bob added 5 logs. Carol, who had no firewood, paid them $8 as her share.</p>
                     <div class="math-example">
                         <p><strong>Total logs:</strong> 3 + 5 = 8 logs</p>
-                        <p><strong>Matin's share:</strong> $8 (for 8 logs worth of warmth)</p>
+                        <p><strong>Carol's share:</strong> $8 (for her equal 1/3 share of the fire)</p>
                     </div>
                 </div>
                 <div class="puzzle-question">
                     <h4>🎯 Your Task</h4>
-                    <p>How much money (in whole dollars) must Saeed receive?</p>
+                    <p>How much money (in whole dollars) must Bob receive?</p>
                 </div>
             </div>
         """,
-        "answer": 5,
+        "answer": 7,
         "digit_index": 2,
-        "hint": "Calculate the value per log, then determine how much each person should receive based on their contribution.",
+        "hint": "Since Carol paid $8 for her 1/3 share, the full fire cost $24. At $3 per log, Bob contributed $15 but only consumed $8 worth, so he should receive $7.",
         "difficulty": "💰 Fair Division Logic"
     }
 ]
